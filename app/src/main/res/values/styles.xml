@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Base calculatorButton -->
+    <style name="CalculatorButton">
+        <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">60dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+<!--    Number button style-->
+    <style name="CalculatorButton.Number">
+        <item name="android:background">#1E1E1E</item>
+    <item name="android:backgroundTint">#1E1E1E</item>
+        <item name="android:textColor">#EDEDED</item>
+    </style>
+
+<!--    Operator Button Style-->
+    <style name="CalculatorButton.Operator">
+        <item name="android:background">#FF6B6B</item>
+    <item name="android:backgroundTint">#FF6B6B</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+<!--    Function Button Style-->
+    <style name="CalculatorButton.Function">
+    <item name="android:background">#3A3A3A</item>
+    <item name="android:backgroundTint">#3A3A3A</item>
+        <item name="android:textColor">#CCCCCC</item>
+    </style>
+<!--    Equals Button Style-->
+    <style name="CalculatorButton.Equals">
+        <item name="android:background">#00C2A8</item>
+    <item name="android:backgroundTint">#00C2A8</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>
